@@ -2,15 +2,19 @@ body{
     background-color: aqua;
     font-family: 'Roboto Slab', serif;
 }
-p{
-    width: 200px;
-    margin: 0 auto;
-    
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
-p img{
+p img, p{
     width: 200px;
     margin: 0 auto;
 
+}
+img{
+    width: 300px;  
 }
 
 .main-body{
@@ -47,11 +51,6 @@ p img{
     margin-top: 15px;
   width: 100%;
   padding: 10px;
-}
-
-img{
-    width: 300px;
-    
 }
 
 ul li{

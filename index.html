@@ -8,42 +8,55 @@
     <title>Cooking Master</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-       
-
+        <div class="d-flex justify-content-around pt-5">
+            <div class="logo">
+                <a href="#">Cooking Master</a>
+            </div>
+        <div class="d-flex justify-content-end">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Recipes</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
         <div class="main-body">
-            
             <div class="search-bar">
-               
                 <div class="input-group">
-                    <input id="input-value" type="text" class="form-control rounded" value="" placeholder="Search"
-                         />
-                    <button id="button" onclick="search()" type="button" class="btn btn-outline-primary">search</button>
+                    <input id="input-value" type="text" class="form-control rounded" value="" placeholder="Search" />
+                    <button id="search-button" onclick="search()" type="button"
+                        class="btn btn-outline-primary">search</button>
                 </div>
                 <div id="details">
-
                 </div>
             </div>
             <ul id="meal">
 
             </ul>
-        
         </div>
-
-       
     </main>
-
-
-
-    <script src="script.js">
-
-    </script>
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
