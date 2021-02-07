@@ -1,5 +1,5 @@
 function search() {
-    const input = document.getElementById("input-value").value;
+    const input = document.getElementById("input-value").innerText;
     console.log(input);
     const mealName = input;
     console.log(mealName);
@@ -14,10 +14,10 @@ function search() {
             mainDiv.className = 'main-div';
         const mealInfo = `
         <P>
-        <a href="#details" onclick="mealDetail('${meal.strMeal}')">
+        <div id="first-div" onclick="mealDetail('${meal.strMeal}')">
         <img src="${meal.strMealThumb}">
          <h4 class="meal-name">${meal.strMeal}</h4>
-         </a>
+         </div>
          </P>
          `;
             mainDiv.innerHTML = mealInfo;

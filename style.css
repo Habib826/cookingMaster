@@ -1,5 +1,6 @@
 body{
     background-color: aqua;
+    font-family: 'Roboto Slab', serif;
 }
 p{
     width: 200px;
@@ -37,33 +38,28 @@ p img{
     margin: 0 auto;
     
 }
-.meal-name. .meal-Ingredient{
+.meal-name{
     font-size: 30px;
-    color: black;
 }
 
 .Ingredient{
     margin: auto;
-  width: 50%;
+    margin-top: 15px;
+  width: 100%;
   padding: 10px;
 }
 
 img{
-    width: 500px;
+    width: 300px;
     
 }
 
 ul li{
     font-weight: bold;
 }
-a {
-    color: #0060B6;
-    text-decoration: none;
+h4.meal-name {
+    margin-top: 20px;
 }
-
-a:hover 
-{
-     color:#00A0C6; 
-     text-decoration:none; 
-     cursor:pointer;  
+#first-div{
+    color: darkblue;
 }
