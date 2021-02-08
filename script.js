@@ -25,7 +25,6 @@ function search() {
             mainDiv.innerHTML = mealInfo;
             div.appendChild(mainDiv);
         });
-
     }
 
     mealDetail = meal => {
@@ -35,7 +34,6 @@ function search() {
             .then(data => selectMeal(data.meals[0]))
     }
     const selectMeal = meals => {
-        console.log(meals);
         const mealDiv = document.getElementById("details");
         mealDiv.innerHTML = `
         <div class="Ingredient">
@@ -55,11 +53,8 @@ function search() {
           <li>${meals.strMeasure10} ${meals.strIngredient10}</li> 
           </ul>
           </div>
-
-        `
-
+        `       
     }
-
 }
 
 
