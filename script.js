@@ -1,8 +1,8 @@
 function search() {
     const input = document.getElementById("input-value").value;
 
-    if (input == ' ') {
-        alert("give a name first")
+    if (input.length==0) {
+        document.getElementById("button").setAttribute("disabled", "disabled");
     }
     const mealName = input;
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${mealName}`)
