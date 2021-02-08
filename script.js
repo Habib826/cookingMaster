@@ -10,6 +10,7 @@ function search() {
         .then(data => displayMeals(data));
     const displayMeals = mealList => {
         const div = document.getElementById("meal");
+        div.innerHTML='';
         mealList.meals.forEach(meal => {
             const mainDiv = document.createElement('div');
             mainDiv.className = 'main-div';
