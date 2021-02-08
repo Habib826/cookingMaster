@@ -16,10 +16,12 @@ function search() {
             mainDiv.className = 'main-div';
             const mealInfo = `
         <P>
+        <a href="#details">
         <div id="first-div" onclick="mealDetail('${meal.strMeal}')">
         <img src="${meal.strMealThumb}">
          <h4 class="meal-name">${meal.strMeal}</h4>
          </div>
+         </a>
          </P>
          `;
             mainDiv.innerHTML = mealInfo;

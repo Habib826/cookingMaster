@@ -2,19 +2,35 @@ body{
     background-color: aqua;
     font-family: 'Roboto Slab', serif;
 }
+
+p img, p{
+    width: 200px;
+    margin: 0 auto;
+
+    
+}
+img{
+    width: 300px;  
+}
+
+ul li{
+    font-weight: bold;
+}
+
+h4.meal-name {
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+  }
+
 .logo a{
     text-decoration: none;
     color: black;
     font-size: 30px;
     font-weight: bold;
-}
-p img, p{
-    width: 200px;
-    margin: 0 auto;
-
-}
-img{
-    width: 300px;  
 }
 
 .main-body{
@@ -25,6 +41,7 @@ img{
     border-radius: 15px;
     height: 100%;
 }
+
 .search-bar{
     margin: auto;
     padding: 70px;
@@ -54,16 +71,8 @@ img{
   padding: 10px;
 }
 
-ul li{
-    font-weight: bold;
-}
-h4.meal-name {
-    margin-top: 20px;
-}
-#first-div{
-    color: darkblue;
-}
 #details{
     margin: auto;
     width: 30%;
 }
+
